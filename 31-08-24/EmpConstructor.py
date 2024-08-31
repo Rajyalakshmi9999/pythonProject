@@ -26,7 +26,7 @@ class Employee:
         return None
 
 
-emp11 = Employee("Ram", 10,"abc@gamil",86666,"Bang")
+emp11 = Employee(input("name :"),int(input("age:")) ,input("email:"),int(input("phone:")),input("city:"))
 print(emp11.name)
 print(emp11.age)
 print(emp11.eid)
